@@ -1,0 +1,69 @@
+/* FOR BUTTON SIZE */
+.small {
+  font-size: 12px;
+}
+.medium {
+  font-size: 18px;
+}
+.large {
+  font-size: 24px;
+}
+/* Button COLOR */
+
+.colorGray {
+  background-color: #374151;
+  color: #374151;
+  border: 2px solid #374151;
+}
+.colorRed {
+  background-color: #b91c1c;
+  color: #b91c1c;
+  border: 2px solid #b91c1c;
+}
+.colorBLue {
+  background-color: #1d4ed8;
+  color: #1d4ed8;
+  border: 2px solid #1d4ed8;
+}
+.colorPink {
+  background-color: #db2777;
+  color: #db2777;
+  border: 2px solid #db2777;
+}
+.colorSkyblue {
+  background-color: #60a5fa;
+  color: #60a5fa;
+  border: 2px solid #60a5fa;
+}
+.colorYellow {
+  background-color: #d97706;
+  color: #d97706;
+  border: 2px solid #d97706;
+}
+.colorGreen {
+  background-color: #059669;
+  color: #059669;
+  border: 2px solid #059669;
+}
+/* FOR BUTTON TYPE */
+.fullType {
+  font: bold;
+  color: white;
+  border-radius: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.lightType {
+  font: bold;
+  border-radius: 12px;
+  background: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.linkType {
+  font: bold;
+  border: none;
+  background: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}

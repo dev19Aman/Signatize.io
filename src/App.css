@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image-upload > input {
+  display: none;
+}
+
+.image-upload img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.image-upload > input {
+  display: none;
+}
+
+.image-upload logo {
+  width: 80px;
+  cursor: pointer;
+}
+
+/* Sliding panel code  */
+.slide-pane__content {
+  position: relative;
+  overflow-y: auto;
+  padding: 0px 0px !important;
+  flex: 1 1 auto;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: orange;
+}
+
+::selection {
+  color: black;
+  background: orange;
+}
+
+/* .MuiButton-containedPrimary {
+  color: #fff;
+  background-color: ;
+} */
+
+#react-paginate ul {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#react-paginate li {
+  display: inline-block;
+}
